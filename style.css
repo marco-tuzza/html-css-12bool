@@ -4,12 +4,34 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(img/background.jpg);
+}
+
 .container {
-    max-width: 300px;
+    padding-top: 30px;
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mario {
+    float: left;
+}
+
+.luigi {
+    float: right;
 }
 
 .row {
-    height: 25px;
+    height: 20px;
+    width: 200px;
 }
 
 .red {
